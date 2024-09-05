@@ -8,6 +8,7 @@
 <body>
  <img id="view3d" src="compasspic.png"/>
 <script type="text/javascript">
+ screen.orientation.lock(portrait);
 //compass example untested:
 const elem = document.getElementById("view3d");
 window.addEventListener("deviceorientation", (e) => {
