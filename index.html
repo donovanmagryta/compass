@@ -9,7 +9,7 @@
 <body>
  <img id="view3d" src="compasspic.png"/>
 <script type="text/javascript">
-  lock(portrait);
+  screen.orientation.lock('portrait'); //android only
 //compass example untested:
 const elem = document.getElementById("view3d");
 window.addEventListener("deviceorientation", (e) => {
